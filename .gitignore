@@ -17,3 +17,5 @@
 .DS_Store
 .jpg
 .jpeg
+# Ignore application configuration
+/config/application.yml
