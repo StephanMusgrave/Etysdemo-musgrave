@@ -14,8 +14,10 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
 .DS_Store
-.jpg
-.jpeg
+
 # Ignore application configuration
 /config/application.yml
+# Ignore files uplaoded on localhost
+/public/system
