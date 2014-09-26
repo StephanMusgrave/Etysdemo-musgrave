@@ -1,5 +1,5 @@
 # Etsydemo - an Etsy clone
-A project to develop a clone of Yelp developed from a [BaseRails] course.
+A project to develop a clone of Yelp following a [BaseRails] course.
 
 ![](public/etsydemo_.png)
 
@@ -28,17 +28,13 @@ Click here to open the web page on Heroku: [App on Heroku]
 |Sqlite3                    |SQL Database for development    |
 |Postgrsql                  |SQL Database for deployment     |
 |Devise                     |Enabling users and admins       |
-|CarrierWave                |For file uploading              |
-|Fog                        |Ruby cloud services library     |
 |Dropbox                    |Bulk image hosting              |
-|ImageMagick                |A software suite for displaying, converting, and editing raster image files|
-|mini_magick                |manipulating images            |
+|Paperclip                  |A file attachment library for Active Record, used for uploading images|
+|paperclip-dropbox          |extends Paperclip with Dropbox storage|
 |Figaro                     |handling passwords and keys    |
-|searchkick                 |searching the database          |
 |HTML5                      |Web Pages                       |
 |CSS3                       |Styling                         |
 |Bootstrap                  |Base styling theme              |
-|Geolocation/Geomapper      |Showing maps                    |
 
 
 ## Developed by
@@ -46,8 +42,6 @@ Click here to open the web page on Heroku: [App on Heroku]
 [Steve Musgrave]
 
 ## Further work to do
-
-
 
 [Steve Musgrave]:https://github.com/StephanMusgrave
 [App on Heroku]:http://etsydemo-musgrave.herokuapp.com/
