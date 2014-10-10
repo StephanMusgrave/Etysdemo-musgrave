@@ -16,6 +16,7 @@
 //= require turbolinks
 //= require_tree .
 
+// alerts disappear and rest of page slides up after 5 seconds
 window.setTimeout(function() {
     $(".alert").fadeTo(900, 0).slideUp(900, function(){
         $(this).remove(); 
