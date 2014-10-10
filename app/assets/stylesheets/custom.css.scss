@@ -10,7 +10,7 @@ body{
   background-color: #EFEFEB;
 }
 .navbar-default .navbar-brand {
-  font-family: guardian-egyppt, georgia, serif;
+  font-family: guardian-egyptt, georgia, serif;
   font-weight: 400;
   color: #D15600;
   font-size: 30px;
@@ -44,5 +44,13 @@ body{
   p {
     font-size: 18px;
     margin: 0px;
+  }
+}
+
+.jumbotron {
+  background-image: url('jumbotron.jpg');
+  h1,h2 {
+    font-family: guardian-egyptt, georgia, serif;
+    color:  #a90402;
   }
 }
