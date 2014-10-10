@@ -74,6 +74,10 @@ class ListingsController < ApplicationController
     def listing_params
       params.require(:listing).permit(:name, :description, :price, :image)
     end
-    def checkuser
+
+    def check_user
+      if current_user != @listing.user
+        redirect_to root_url, alert: "Sorry, this listing does not belong to you"
+      end
     end
 end
