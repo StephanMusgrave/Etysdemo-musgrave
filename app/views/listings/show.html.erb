@@ -10,6 +10,12 @@
       <p><%= number_to_currency(@listing.price, :unit => "£") %></p>
     <p><%= @listing.description %></p>
     <p><%= "Listed by #{@listing.user.name}" %></p>
+    <% if current_user != @listing.user %>
+      <br>
+      <div class="centre">
+        <%= link_to "Buy It Now", new_listing_order_path(@listing), class: "btn btn-primary" %>
+      </div>
+    <% end %>
     <p>
   </div>
 </div>
