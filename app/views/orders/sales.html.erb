@@ -1,0 +1,29 @@
+<div class="centre">
+  <h2>Your Sales History</h2>
+</div>
+
+<table class="table table-striped table-bordered">
+  <tr>
+    <th class="centre">Image</th>
+    <th class="centre">Name</th>
+    <th class="centre">Price</th>
+    <th class="centre">Customer</th>
+    <th class="centre">Date Sold</th>
+  </tr>
+
+  <% @orders.each do |order| %>
+    <tr>
+      <td class="centre"><%= image_tag order.listing.image.url(:thumb) %></td>
+      <td class="centre"><%= order.listing.name %></td>
+      <td class="centre"><%= number_to_currency(order.listing.price, :unit => "£") %></td>
+      <td class="centre"><%= order.buyer.name %></td>
+      <td class="centre"><%= order.created_at.strftime("%-d, %B, %Y") %></td>
+    </tr>
+  <% end %>
+</table>
+
+<br>
+
+<% if user_signed_in? %>
+  <%= link_to 'New Listing', new_listing_path, class:"btn btn-link"  %>
+<% end %>
