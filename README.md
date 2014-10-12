@@ -36,6 +36,7 @@ Click here to open the web page on Heroku: [App on Heroku]
 |CSS3                       |Styling                         |
 |Bootstrap                  |Base styling theme              |
 |Javascript                 |animations for alerts           |
+|Stripe                     |handling credit card payments   |
 
 
 ## Developed by
