@@ -1,4 +1,3 @@
-<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 
 <div class="row">
   <div class="col-md-4">
@@ -25,6 +24,10 @@
           </ul>
         </div>
       <% end %>
+
+      <div id="stripe_error" class="alert alert-danger" style="display:none">
+        <noscript>JavaScript is not enable and is required fro this form.  First enable it in your web browser settings.</noscript>
+      </div>
 
       <div class="form-group">
         <%= f.label :address %>
