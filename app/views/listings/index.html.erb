@@ -1,7 +1,7 @@
 <div class="jumbotron">
-  <h1>Handcrafted items from around <br>
-      the world</h1>
-  <h2>Discover one-of-a-kind items</h2>
+  <h1>Unique art from<br>
+      around the world</h1>
+  <h2>Handcrafted items</h2>
 </div>
 <div class="centre">
   <div class="row">
@@ -23,5 +23,5 @@
 </div>
 
 <% if user_signed_in? %>
-  <%= link_to 'New Listing', new_listing_path, class:"btn btn-link"  %>
+  <%= link_to 'New Listing', new_listing_path, class:"btn btn-link", data: { no_turbolink: true }  %>
 <% end %>
