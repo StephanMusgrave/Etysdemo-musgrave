@@ -1,4 +1,24 @@
 en-GB:
+  new_listing: New Item
+  listed_by: For sale by %{user}
+  jumbotron_title_html: <h1>Unique art from<br>around the world.</h1>
+  jumbotron_subtitle_html: <h2>Handcrafted items</h2>
+  navbar:
+      about: About                            
+      contact: Contact
+      language: Language
+      us_english: US English
+      gb_english: GB English
+      italian: Italian
+      seller_account: Seller Account
+      manage_my_listings: Manage my Listings
+      sales_history: Sales History
+      purchase_history: Purchase History
+      edit_profile: Edit Profile
+      sign_out: Sign Out
+      sign_up: Sign Up
+      sign_in: Sign In
+
   date:
     abbr_day_names:
     - Sun

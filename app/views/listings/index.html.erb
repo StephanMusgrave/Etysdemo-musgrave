@@ -1,7 +1,6 @@
 <div class="jumbotron">
-  <h1>Unique art from<br>
-      around the world</h1>
-  <h2>Handcrafted items</h2>
+  <%= t('jumbotron_title_html') %>
+  <%= t('jumbotron_subtitle_html') %>
 </div>
 <div class="centre">
   <div class="row">
@@ -16,7 +15,7 @@
             <p><%#= number_to_currency(listing.price, :unit => "€", separator: ",", delimiter: ".") %></p>
             <p><%#= number_to_currency(listing.price, :unit => "£", separator: ".", delimiter: ",") %></p>
             <p><%= number_to_currency(listing.price) %></p>
-            <p><%= "Listed by #{listing.user.name}" %></p>
+            <p><%= t('listed_by', user: listing.user.name) %></p>
             <% # if (user_signed_in?) && (current_user == listing.user) %>
             <% # if current_user == listing.user %>
           </div>
@@ -27,8 +26,8 @@
 </div>
 
 <% if user_signed_in? %>
-  <%= link_to new_listing_path, class:"btn btn-primary", data: { no_turbolink: true } do %>
-    <i class="glyphicon glyphicon-plus"></i> New Listing
-  <% end %>
-  <%#= link_to 'New Listing', new_listing_path, class:"btn btn-link", data: { no_turbolink: true }  %>
+  <%#= link_to new_listing_path, class:"btn btn-primary", data: { no_turbolink: true } do %>
+    <!-- <i class="glyphicon glyphicon-plus"></i> New Listing -->
+  <%# end %>
+  <%= link_to t('new_listing'), new_listing_path, class:"btn btn-link", data: { no_turbolink: true }  %>
 <% end %>

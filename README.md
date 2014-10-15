@@ -38,6 +38,8 @@ Click here to open the web page on Heroku: [App on Heroku]
 |Glypicons                  |for styling links and buttons   |
 |Javascript                 |animations for alerts and checking payment forms |
 |Stripe                     |credit card payments by buyers and transfer to seller bank account  |
+|Rails Internationalization (I18n) API |for tranlation from US English to Italian and GB English |
+
 
 
 ## Developed by

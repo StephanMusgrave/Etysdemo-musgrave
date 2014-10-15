@@ -1,4 +1,24 @@
 it:
+  new_listing: Nuovo Prodotto
+  listed_by: Venduta da %{user}
+  jumbotron_title_html: <h1>Arte unica da<br>tutto il mondo</h1>
+  jumbotron_subtitle_html: <h2>Oggetti d'artigianato</h2>
+  navbar:
+    about: Chi Siamo                      
+    contact: Contattaci
+    language: Lingua
+    us_english: US Inglese
+    gb_english: GB Inglese
+    italian: Italiano
+    seller_account: Venditore
+    manage_my_listings: Gestione Prodotti
+    sales_history: Vendita Storia
+    purchase_history: Cronologia Acquisti
+    edit_profile: Modifico Profilo
+    sign_out: Esci
+    sign_up: Iscriviti
+    sign_in: Accedi
+
   date:
     abbr_day_names:
     - dom
