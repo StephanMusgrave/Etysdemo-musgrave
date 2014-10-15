@@ -23,6 +23,8 @@
 </table>
 
 <br>
+<%= will_paginate @listings, :previous_label => ' < ', :next_label => ' > ', renderer: BootstrapPagination::Rails %>
+<br>
 
 <% if user_signed_in? %>
   <%= link_to 'New Listing', new_listing_path, class:"btn btn-link", data: { no_turbolink: true }  %>
