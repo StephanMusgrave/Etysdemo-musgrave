@@ -35,6 +35,7 @@ Click here to open the web page on Heroku: [App on Heroku]
 |HTML5                      |Web Pages                       |
 |CSS3                       |Styling                         |
 |Bootstrap                  |Base styling theme              |
+|Glypicons                  |for styling links and buttons   |
 |Javascript                 |animations for alerts and checking payment forms |
 |Stripe                     |credit card payments by buyers and transfer to seller bank account  |
 

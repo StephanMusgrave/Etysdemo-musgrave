@@ -15,9 +15,9 @@
     <tr>
       <td class="centre"><%= image_tag order.listing.image.url(:thumb) %></td>
       <td class="centre"><%= order.listing.name %></td>
-      <td class="centre"><%= number_to_currency(order.listing.price, :unit => "£") %></td>
+      <td class="centre"><%= number_to_currency(order.listing.price) %></td>
       <td class="centre"><%= order.seller.name %></td>
-      <td class="centre"><%= order.created_at.strftime("%-d, %B, %Y") %></td>
+      <td class="centre"><%= order.created_at.strftime("%-d %B %Y") %></td>
     </tr>
   <% end %>
 </table>
