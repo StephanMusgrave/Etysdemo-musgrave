@@ -39,3 +39,13 @@ en:
     sign_out: Sign Out
     sign_up: Sign Up
     sign_in: Sign In
+  devise:
+    sessions:
+      signed_in: 'Signed in successfully.'
+      signed_out: 'Signed out'
+    registrations:
+      signed_up: 'Welcome. You have signed up successfully. us'
+
+  errors:
+    messages:
+      not_saved: 'Not Saved'

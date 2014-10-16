@@ -18,6 +18,15 @@ it:
     sign_out: Esci
     sign_up: Iscriviti
     sign_in: Accedi
+  devise:
+    sessions:
+      signed_in: 'Firmato a successo'
+      signed_out: 'Addio'
+    registrations:
+      signed_up: 'Welcome. You have signed up successfully. it'
+  errors:
+    messages:
+      not_saved: 'Non Salvato'
 
   date:
     abbr_day_names:
