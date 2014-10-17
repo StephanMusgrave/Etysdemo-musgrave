@@ -54,7 +54,9 @@
               <%= link_to edit_user_registration_path do %>
                 <i class="glyphicon glyphicon-wrench"></i>&nbsp;&nbsp;Edit Profile<br>
               <% end %>
-              <li><%= link_to t('navbar.sign_out'), destroy_user_session_path, method: :delete %></li>
+              <%= link_to destroy_user_session_path, method: :delete do %>
+                <i class="glyphicon glyphicon-wrench"></i>&nbsp;&nbsp;Sign out<br>
+              <% end %>
             </ul>
           </li>
         <% else %>
