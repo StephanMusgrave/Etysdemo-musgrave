@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :categories
+
   scope "(:locale)", locale: /en|it|en-GB/ do
     devise_for :users
     resources :listings do

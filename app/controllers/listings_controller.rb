@@ -43,10 +43,10 @@ class ListingsController < ApplicationController
         :type => "individual",
         :bank_account => token
         )
-    end
 
-    current_user.recipient = recipient.id
-    current_user.save
+      current_user.recipient = recipient.id
+      current_user.save
+    end
 
     respond_to do |format|
       if @listing.save
@@ -91,7 +91,7 @@ class ListingsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def listing_params
-      params.require(:listing).permit(:name, :description, :price, :image)
+      params.require(:listing).permit(:name, :category_id, :description, :price, :image)
     end
 
     def check_user
