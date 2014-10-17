@@ -9,6 +9,7 @@
       <h3><%= @listing.name %></h3>
       <p><%= number_to_currency(@listing.price) %></p>
     <p><%= @listing.description %></p>
+    <p><%= @listing.category.name %></p>
     <p><%= "Listed by #{@listing.user.name}" %></p>
     <% if current_user != @listing.user %>
       <br>
