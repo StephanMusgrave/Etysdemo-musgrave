@@ -23,7 +23,7 @@ it:
       signed_in: 'Firmato a successo'
       signed_out: 'Addio'
     registrations:
-      signed_up: 'Welcome. You have signed up successfully. it'
+      signed_up: 'Welcome. You have signed up successfully.'
   errors:
     messages:
       not_saved: 'Non Salvato'
