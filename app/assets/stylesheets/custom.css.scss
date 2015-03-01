@@ -58,3 +58,9 @@ body{
   color: #333333;
   display: inline-block;
 }
+
+.test {
+  background-color: red;
+  :focus, :hover {
+  }
+}

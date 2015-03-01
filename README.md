@@ -31,13 +31,14 @@ Click here to open the web page on Heroku: [App on Heroku]
 |Dropbox                    |Bulk image hosting              |
 |Paperclip                  |A file attachment library for Active Record, used for uploading images|
 |paperclip-dropbox          |extends Paperclip with Dropbox storage|
+|Devise                     |Creating users                  |
 |Figaro                     |handling passwords and keys     |
 |HTML5                      |Web Pages                       |
 |CSS3                       |Styling                         |
 |Bootstrap                  |Base styling theme              |
 |will_paginate              |Pagination library              |
 |Glypicons                  |for styling links and buttons   |
-|Javascript                 |animations for alerts and checking payment forms |
+|Javascript & Coffeescript  |animations for alerts and checking payment forms |
 |Stripe                     |credit card payments by buyers and transfer to seller bank account  |
 |Rails Internationalization (I18n) API |for translation from US English to Italian and GB English |
 
