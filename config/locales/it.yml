@@ -4,7 +4,7 @@ it:
   jumbotron_title_html: <h1>Arte unica da<br>tutto il mondo</h1>
   jumbotron_subtitle_html: <h2>Oggetti d'artigianato</h2>
   navbar:
-    about: Chi Siamo                      
+    about: Chi Siamo
     contact: Contattaci
     language: Lingua
     us_english: US Inglese
@@ -23,7 +23,7 @@ it:
       signed_in: 'Firmato a successo'
       signed_out: 'Addio'
     registrations:
-      signed_up: 'Welcome. You have signed up successfully.'
+      signed_up: 'Benvenuto. Ti sei registrato con successo.'
   errors:
     messages:
       not_saved: 'Non Salvato'
