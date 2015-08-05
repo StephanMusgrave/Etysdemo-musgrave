@@ -1,8 +1,8 @@
 it:
   new_listing: Nuovo Prodotto
   listed_by: Venduta da %{user}
-  jumbotron_title_html: <h1>Arte unica da<br>tutto il mondo</h1>
-  jumbotron_subtitle_html: <h2>Oggetti d'artigianato</h2>
+  jumbotron_title_html: <h1>Le cose belle per<br>Beautiful persone</h1>
+  jumbotron_subtitle_html: <h2>dall'India</h2>
   navbar:
     about: Chi Siamo
     contact: Contattaci

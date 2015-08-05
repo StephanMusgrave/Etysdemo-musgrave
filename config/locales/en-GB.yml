@@ -1,10 +1,10 @@
 en-GB:
   new_listing: New Item
   listed_by: For sale by %{user}
-  jumbotron_title_html: <h1>Unique art from<br>around the world.</h1>
-  jumbotron_subtitle_html: <h2>Handcrafted items</h2>
+  jumbotron_title_html: <h1>Beautiful things for<br>Beautiful people</h1>
+  jumbotron_subtitle_html: <h2>from India</h2>
   navbar:
-    about: About                            
+    about: About
     contact: Contact
     language: Language
     us_english: US English
